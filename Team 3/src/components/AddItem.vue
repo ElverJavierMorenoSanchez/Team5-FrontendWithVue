@@ -8,7 +8,7 @@
         <form @submit.prevent="handleSubmit">
           <div class="form-group m-1">
             <input
-              type="Number"
+              type="number"
               class="form-control mt-1"
               placeholder="Id"
               required
@@ -89,10 +89,10 @@ const handleSubmit = async () => {
 
   if (editable.value) {
     const message = await updateItem(store.state.item.id, newItem);
-    alert(message.message);
+    alert("Update success");
   } else {
     const message = await postItem(newItem);
-    alert(message.message);
+    alert("Add success");
   }
 
   handleReset();

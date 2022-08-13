@@ -37,6 +37,7 @@ const handleDelete = async (id) => {
   if (band) {
     const del = await deleteItem(id);
     store.dispatch("fetchData");
+    alert("Delete success");
   }
 };
 </script>

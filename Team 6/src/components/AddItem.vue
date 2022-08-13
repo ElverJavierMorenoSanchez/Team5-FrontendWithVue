@@ -10,21 +10,21 @@
             <input
               type="text"
               class="form-control mt-1"
-              placeholder="Name"
+              placeholder="Título"
               required
               v-model="name"
             />
             <input
               type="text"
               class="form-control mt-1"
-              placeholder="Author"
+              placeholder="Autor"
               required
               v-model="author"
             />
             <input
               type="text"
               class="form-control mt-1"
-              placeholder="Gender"
+              placeholder="Género"
               required
               v-model="gender"
             />
@@ -32,7 +32,7 @@
               type="number"
               step="0.01"
               class="form-control mt-1"
-              placeholder="Price"
+              placeholder="Precio"
               required
               v-model="price"
             />

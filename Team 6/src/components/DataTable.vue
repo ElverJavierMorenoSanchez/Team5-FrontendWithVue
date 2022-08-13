@@ -4,10 +4,10 @@
       <thead>
         <tr>
           <th class="th-sm">Id</th>
-          <th class="th-sm">Name</th>
-          <th class="th-sm">Author</th>
-          <th class="th-sm">Gender</th>
-          <th class="th-sm">Price</th>
+          <th class="th-sm">Título</th>
+          <th class="th-sm">Autor</th>
+          <th class="th-sm">Género</th>
+          <th class="th-sm">Precio</th>
           <th class="th-sm">Opciones</th>
         </tr>
       </thead>
